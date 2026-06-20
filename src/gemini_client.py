@@ -21,7 +21,8 @@ class GeminiClient:
         try:
             import google.generativeai as genai
             genai.configure(api_key=self.api_key)
-            self.model = genai.GenerativeModel('gemini-pro')
+            # Use gemini-1.5-flash which is fast, capable, and widely available
+            self.model = genai.GenerativeModel('gemini-1.5-flash')
         except ImportError:
             print("Please install google-generativeai: pip install google-generativeai")
         except Exception as e:
