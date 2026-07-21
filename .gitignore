@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.db
+*.log
+.env
+uploads/
+reports/
+assets/
+database/
+streamlit.log
+*.mp3
+*.wav

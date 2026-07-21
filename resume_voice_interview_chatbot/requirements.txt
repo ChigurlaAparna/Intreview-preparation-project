@@ -1,0 +1,49 @@
+# Web Framework
+streamlit>=1.28.0
+
+# Database
+sqlite3 (built-in)
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# AI & NLP
+google-generativeai>=0.3.0
+openai>=1.0.0
+
+# Resume Parsing
+PyMuPDF>=1.23.0
+python-docx>=1.0.0
+
+# Voice Features - Speech Recognition & TTS
+SpeechRecognition>=3.10.0
+faster-whisper>=1.0.0
+edge-tts>=6.1.0
+sounddevice>=0.4.0
+pyaudio>=0.4.0
+
+# Visualization
+plotly>=5.18.0
+
+# Data Validation
+pydantic>=2.0.0
+
+# Utilities
+python-multipart>=0.0.6
+python-dotenv>=1.0.0
+
+# PDF Generation
+reportlab>=4.0.0
+
+# Logging
+loguru>=0.7.0
+
+# HTTP Client
+requests>=2.31.0
+
+# WebRTC for audio handling
+aiortc>=1.5.0
+
+# Async support
+aiofiles>=23.0.0
